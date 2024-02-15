@@ -5,21 +5,19 @@
     [
         {
             "command": "paste",
-            "keys": "ctrl+shift+v"
+            "keys": "ctrl+v"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+shift+c"
+            "command": "copy",
+            "keys": "ctrl+c"
         }
     ],
     "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "initialCols": 160,
+    "initialRows": 40,
     "newTabMenu": 
     [
         {
@@ -44,6 +42,7 @@
         "list": 
         [
             {
+                "elevate": true,
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/pwsh.png",
@@ -59,28 +58,28 @@
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "icon": "%userprofile%/scoop/persist/windows-terminal/settings/terminal.ico",
+                "icon": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/terminal.ico",
                 "name": "Command"
             },
             {
                 "commandline": "pwsh -Command psql",
                 "guid": "{a7bb6a9b-60f9-4053-b0b5-9a9d7318d469}",
-                "hidden": false,
-                "icon": "%userprofile%/scoop/persist/windows-terminal/settings/postgre.ico",
+                "hidden": true,
+                "icon": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/postgre.ico",
                 "name": "PSQL"
             },
             {
                 "commandline": "pwsh -Command mysql",
                 "guid": "{9e5cea7c-ce80-472d-897d-b29a7cda2d56}",
-                "hidden": false,
-                "icon": "%userprofile%/scoop/persist/windows-terminal/settings/mysql.ico",
+                "hidden": true,
+                "icon": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/mysql.ico",
                 "name": "MySQL"
             },
             {
                 "commandline": "C:/msys64/msys2_shell.cmd -defterm -here -no-start -ucrt64",
                 "guid": "{71160544-14d8-4194-af25-d05feeac7233}",
                 "hidden": false,
-                "icon": "%userprofile%/scoop/persist/windows-terminal/settings/msys.ico",
+                "icon": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/msys.ico",
                 "name": "MSYS2",
                 "startingDirectory": "C:/msys64/home/%USERNAME%"
             },
@@ -89,9 +88,21 @@
                 "elevate": true,
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "hidden": false,
-                "icon": "%userprofile%/scoop/persist/windows-terminal/settings/debian.ico",
+                "icon": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/debian.ico",
                 "name": "Debian",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{e33fe3e1-702a-56c3-a642-25ba4975d53e}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{0fa90860-631d-5746-ac20-794dd626e35a}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
