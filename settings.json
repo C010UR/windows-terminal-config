@@ -84,7 +84,7 @@
                 "startingDirectory": "C:/msys64/home/%USERNAME%"
             },
             {
-                "colorScheme": "Banana Blueberry",
+                "colorScheme": "Nord",
                 "elevate": true,
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "hidden": false,
@@ -659,7 +659,30 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
-        }
+        },
+        {
+            "name": "Nord",
+            "black": "#3b4252",
+            "red": "#bf616a",
+            "green": "#a3be8c",
+            "yellow": "#ebcb8b",
+            "blue": "#81a1c1",
+            "purple": "#b48ead",
+            "cyan": "#88c0d0",
+            "white": "#e5e9f0",
+            "brightBlack": "#4c566a",
+            "brightRed": "#bf616a",
+            "brightGreen": "#a3be8c",
+            "brightYellow": "#ebcb8b",
+            "brightBlue": "#81a1c1",
+            "brightPurple": "#b48ead",
+            "brightCyan": "#8fbcbb",
+            "brightWhite": "#eceff4",
+            "background": "#2e3440",
+            "foreground": "#d8dee9",
+            "selectionBackground": "#eceff4",
+            "cursorColor": "#eceff4"
+          }
     ],
     "theme": "dark",
     "themes": 
