@@ -2,4 +2,7 @@
 
 !.gitignore
 !settings.json
-!*.ico
+
+!icons/
+icons/*
+!icons/*.ico
